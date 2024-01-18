@@ -39,10 +39,10 @@ export function Login() {
                             id="password"
                         />
 
-                        <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>Entrar!</Button>
+                        <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }} href='/HomeAdmin'>Entrar!</Button>
                         <Grid container justifyContent={'center'}>
                             <Grid item>
-                                <Link href="#" variant="body2"> Não tem conta? Registre-se.</Link>
+                                <Link href="/RegistroCliente" variant="body2"> Não tem conta? Registre-se.</Link>
                             </Grid>
                         </Grid>
                     </Box>
